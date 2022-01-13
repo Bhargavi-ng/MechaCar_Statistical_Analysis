@@ -7,8 +7,8 @@ The below deliverables need to be provided as part of the study.
 - Deliverable 3: T-Test on Suspension Coils
 - Deliverable 4: Design a Study Comparing the MechaCar to the Competition
 
-## Deliverable 1: Linear Regression to Predict MPG
 
+## Deliverable 1: Linear Regression to Predict MPG
 ### Summary of the linear regression:
 A multiple linear regression model was generated using multiple variables from the data source file - [MechaCar_mpg.csv](https://github.com/Bhargavi-ng/MechaCar_Statistical_Analysis/blob/main/R_Analysis/MechaCar_mpg.csv). Based on the test results, vehicle length and grond clearance had stastically significant effect on fuel efficiency. They had p-values of 2.60e-12 and 5.21e-8 respectively. As this regression model has an R-squared value of 0.7149, this model can predict approximately 71.5% of the variation in mpg of the MechaCars prototypes. Thus, this model is very effective at predicting the fuel efficiency of the MechaCars. 
 
@@ -70,12 +70,13 @@ Using a one-tailed, two-sample t-test, we could test the following hypotheses:
   - H-null: MechaCar vehicles in the sample data on average does not have better combined fuel efficiency when compared to similar vehicles from other manufacturers sample data.
   - H-alternative: MechaCar vehicles in the sample data on average have better combined fuel efficeincy compared to similar vehicles from other manufacturers sample data.
 
-We can further build on the above design by comparing different methods of measurement like driving system (FWD, AWD), Fuel Capacity, horsepower, fuel type etc.
+We can further build on the above design by comparing different methods of measurement like driving system (FWD, AWD), Fuel Capacity, horsepower, fuel type, cost, warranty period, etc.
 
 
-### Resources:
+## Resources:
 #### Data Sources
-[MechaCar_mpg.csv](https://github.com/Bhargavi-ng/MechaCar_Statistical_Analysis/blob/main/R_Analysis/MechaCar_mpg.csv)
-[Suspension_Coil.csv](https://github.com/Bhargavi-ng/MechaCar_Statistical_Analysis/blob/main/R_Analysis/Suspension_Coil.csv)
+- [MechaCar_mpg.csv](https://github.com/Bhargavi-ng/MechaCar_Statistical_Analysis/blob/main/R_Analysis/MechaCar_mpg.csv)
+- [Suspension_Coil.csv](https://github.com/Bhargavi-ng/MechaCar_Statistical_Analysis/blob/main/R_Analysis/Suspension_Coil.csv)
 #### Software
 - RStudio
+- R
