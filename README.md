@@ -12,7 +12,6 @@ The below deliverables need to be provided as part of the study.
 ### Summary of the linear regression:
 A multiple linear regression model was generated using multiple variables from the data source file - [MechaCar_mpg.csv](https://github.com/Bhargavi-ng/MechaCar_Statistical_Analysis/blob/main/R_Analysis/MechaCar_mpg.csv). Based on the test results, vehicle length and grond clearance had stastically significant effect on fuel efficiency. They had p-values of 2.60e-12 and 5.21e-8 respectively. As this regression model has an R-squared value of 0.7149, this model can predict approximately 71.5% of the variation in mpg of the MechaCars prototypes. Thus, this model is very effective at predicting the fuel efficiency of the MechaCars. 
 
-MechaCar_mpg
 #### Screenshot of the output from the linear regression:
 ![Deliverable 1 Output](https://github.com/Bhargavi-ng/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable1_R_Output.PNG)
 
@@ -25,6 +24,7 @@ MechaCar_mpg
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
   This linear model predicts mpg of MechaCar prototypes effectively as the r-squared value is 0.7149, which means that about 71.5% of all mpg predictions will be effectively explained by this model.
  
+
 ## Deliverable 2: Summary Statistics on Suspension Coils
 Note: The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
 
@@ -39,6 +39,27 @@ But, when we look at individual lots only Lot 1 and Lot 2 meet the design specif
 
 ## Deliverable 3: T-Tests on Suspension Coils
 
+### All lots - T-Test:
+![Deliverable 3 Output - All Lots](https://github.com/Bhargavi-ng/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable3_Output_all_lots_t_test.PNG)
+
+We can see from the results screenshot above that the t-test, that there is not enough evidence to reject the null hypothesis since the p-value for all manufacturing lots is 0.06028 which is higher than the significance level of 0.05. 
+
+However, the results are different when evaluating each of the three lots separately as shown in the below screenshots of the t-test ouput.   
+
+### Lot 1 - T-Test:
+![Deliverable 3 Output - Lot 1](https://github.com/Bhargavi-ng/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable3_Output_lot1_t_test.PNG)
+
+With a p-value of 1, the suspension coils of the MechaCars in Lot 1 seems to perform no differently from those of an average vehicle. Thus, we cannot reject the null hypothesis Lot 1.
+
+### Lot 2 - T-Test:
+![Deliverable 3 Output - Lot 2](https://github.com/Bhargavi-ng/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable3_Output_lot2_t_test.PNG)
+
+Similarly, for Lot 2, the p-value is 0.61, which is more than the significance level of 0.05. Thus, we fail to reject the null hypothesis for Lot 2.
+
+### Lot 3 - T-Test:
+![Deliverable 3 Output - Lot 3](https://github.com/Bhargavi-ng/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable3_Output_lot3_t_test.PNG)
+
+Lot 3 MechaCars suspension coils have a p-value of 0.042, which is below the significance level of 0.05. Thus, we need to **reject** the null hypothesis.
 
 ## Resources:
 #### Data Sources
