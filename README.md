@@ -61,10 +61,21 @@ Similarly, for Lot 2, the p-value is 0.61, which is more than the significance l
 
 Lot 3 MechaCars suspension coils have a p-value of 0.042, which is below the significance level of 0.05. Thus, we need to **reject** the null hypothesis.
 
-## Resources:
+
+## Deliverable 4: Study Design - MechaCar vs Competition
+
+It would be interesting to conduct a study that collects data on MechaCar and comparable models from other manufacturers as a popular feature that consumers heavily consider when thinking of purchasing a car is fuel efficiency as it greatly impacts costs of ownership per year. In order to do so, it will be necessary to first collect fuel efficiency data for all other manufacturers' vehicles. 
+
+Using a one-tailed, two-sample t-test, we could test the following hypotheses:
+  - H-null: MechaCar vehicles in the sample data on average does not have better combined fuel efficiency when compared to similar vehicles from other manufacturers sample data.
+  - H-alternative: MechaCar vehicles in the sample data on average have better combined fuel efficeincy compared to similar vehicles from other manufacturers sample data.
+
+We can further build on the above design by comparing different methods of measurement like driving system (FWD, AWD), Fuel Capacity, horsepower, fuel type etc.
+
+
+### Resources:
 #### Data Sources
 [MechaCar_mpg.csv](https://github.com/Bhargavi-ng/MechaCar_Statistical_Analysis/blob/main/R_Analysis/MechaCar_mpg.csv)
 [Suspension_Coil.csv](https://github.com/Bhargavi-ng/MechaCar_Statistical_Analysis/blob/main/R_Analysis/Suspension_Coil.csv)
-
 #### Software
 - RStudio
